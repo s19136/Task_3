@@ -86,9 +86,15 @@ C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\ru\Microsoft.Co
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.csproj.CoreCompileInputs.cache
-C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.MvcApplicationPartsAssemblyInfo.cache
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.csproj.CopyComplete
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.dll
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.pdb
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.genruntimeconfig.cache
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.csproj.CoreCompileInputs.cache
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.MvcApplicationPartsAssemblyInfo.cache
