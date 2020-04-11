@@ -23,52 +23,48 @@ namespace Task_3.Controllers
             _service = service;
         }
 
-        [HttpPost(Name = nameof(EnrollStudent))]
-        [Route("enroll")]
+        [HttpPost("enroll", Name = nameof(EnrollStudent))]
         public IActionResult EnrollStudent(EnrollStudentRequest request)
         {
             var response = _service.EnrollStudent(request);
 
-            switch (response)
+            if (response.studentResponse == null)
             {
-                case "No such studies":
-                    return BadRequest("No such studies");
-                case "There already is student with this index":
-                    return BadRequest("There already is student with this index");
-                default:
-                    string[] obj = response.Split(" ");
-                    var res = new StudentResponse
-                    {
-                        IdEnrollment = obj[0],
-                        IdStudy = obj[1],
-                        Semester = obj[2],
-                        StartDate = obj[3]
-                    };
-                    return CreatedAtAction(nameof(EnrollStudent), res);
+                switch (response.Error)
+                {
+                    case "No such studies":
+                        return BadRequest("No such studies");
+                    case "There already is student with this index":
+                        return BadRequest("There already is student with this index");
+                    default:
+                        return StatusCode(400);
+                }
+            }
+            else
+            {
+                return CreatedAtAction(nameof(EnrollStudent), response.studentResponse);
             }
         }
 
 
-        [HttpPost(Name = "promote")]
-        [Route("promote")]
+        [HttpPost("promote",Name = "promote")]
         public IActionResult Promote(PromoteStudentRequest request)
         {
             var response = _service.Promote(request);
 
-            switch (response)
+            if (response.studentResponse == null)
             {
-                case "No such record in Enrollment":
-                    return NotFound("No such record in Enrollment");
-                default:
-                    string[] obj = response.Split(" ");
-                    var res = new StudentResponse
-                    {
-                        IdEnrollment = obj[0],
-                        IdStudy = obj[1],
-                        Semester = obj[2],
-                        StartDate = obj[3]
-                    };
-                    return CreatedAtAction("promote",res);
+                switch (response.Error)
+                {
+                    case "No such record in Enrollment":
+                        return NotFound("No such record in Enrollment");
+                    default:
+                        return StatusCode(400);
+                }
+            }
+            else
+            {
+                return CreatedAtAction(nameof(EnrollStudent), response.studentResponse);
             }
 
         }

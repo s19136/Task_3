@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Task_3.DTO.Respose
 {
-    public class StudentResponse
+    public class EnrollmentResponse
     {
         public string IdEnrollment { get; set; }
         public string IdStudy { get; set; }

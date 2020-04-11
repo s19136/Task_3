@@ -1,0 +1,33 @@
+/api/enrollments/enroll
+POST
+
+{
+	"IndexNumber": "s1235",
+	"FirstName": "Moe",
+	"LastName": "Doe",
+	"BirthDate": "03-03-1993",
+	"Studies": "Computer Science"
+}
+
+/api/enrollments/enroll
+POST
+
+{
+	"IndexNumber": "s12356",
+	"FirstName": "Moe",
+	"LastName": "Doe",
+	"BirthDate": "03-03-1993",
+	"Studies": "Computer Science"
+}
+
+/api/enrollments/enroll
+POST
+
+{
+	"IndexNumber": "s123567",
+	"FirstName": "Moe",
+	"LastName": "Doe",
+	"BirthDate": "03-03-1993",
+	"Studies": "Computer Science"
+}
+

@@ -96,5 +96,10 @@ C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\runtimes\win-x6
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.csproj.CoreCompileInputs.cache
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.MvcApplicationPartsAssemblyInfo.cs
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.MvcApplicationPartsAssemblyInfo.cache
