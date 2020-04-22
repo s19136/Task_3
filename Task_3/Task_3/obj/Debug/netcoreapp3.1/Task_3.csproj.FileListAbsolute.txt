@@ -100,6 +100,13 @@ C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Microsoft.OpenA
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.csproj.CoreCompileInputs.cache
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.MvcApplicationPartsAssemblyInfo.cs
 C:\Study\PJATK\APBD\Task_3\Task_3\Task_3\obj\Debug\netcoreapp3.1\Task_3.MvcApplicationPartsAssemblyInfo.cache

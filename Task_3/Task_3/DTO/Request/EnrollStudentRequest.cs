@@ -14,6 +14,9 @@ namespace Task_3.DTO.Request
         public string IndexNumber { get; set; }
         [Required]
         [MaxLength(100)]
+        public string PassW { get; set; }
+        [Required]
+        [MaxLength(100)]
         public string FirstName { get; set; }
         [Required]
         [MaxLength(100)]
