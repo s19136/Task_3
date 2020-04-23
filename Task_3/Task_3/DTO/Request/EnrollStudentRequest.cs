@@ -28,5 +28,7 @@ namespace Task_3.DTO.Request
         [Required]
         [MaxLength(100)]
         public string Studies { get; set; }
+        [MaxLength(100)]
+        public string Role { get; set; }
     }
 }

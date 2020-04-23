@@ -80,6 +80,7 @@ namespace Task_3.Services
 
                     string[] password = PasswordEncryptionService.encrypt(request.PassW);
                     //Insert student
+                    var role = (request.Role == null)? "user": request.Role;
                     com.CommandText = "INSERT INTO Student(IndexNumber, PassW, Salt, FirstName, LastName, BirthDate, IdEnrollment) VALUES " +
                         "(@IndexNumber, @PassW, @Salt, @FirstName, @LastName, @BirthDate, @NewIdEnrollment)";
                     com.Parameters.AddWithValue("FirstName", request.FirstName);
@@ -297,6 +298,33 @@ namespace Task_3.Services
                         login = dr["IndexNumber"].ToString(),
                         error = ""
                     };
+                }
+            }
+        }
+
+        public string GetRole(string index)
+        {
+            using (var con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s19136;Integrated Security=True"))
+            using (var com = new SqlCommand())
+            {
+                com.Connection = con;
+                con.Open();
+                var tran = con.BeginTransaction();
+
+                com.CommandText = "Select Role From Student " +
+                    "Where IndexNumber=@Index";
+                com.Parameters.AddWithValue("Index", index);
+                com.Transaction = tran;
+
+                var dr = com.ExecuteReader();
+                if (!dr.Read()) //Check if studies exists
+                {
+                    dr.Close();
+                    return "";
+                }
+                else
+                {
+                    return dr["Role"].ToString();
                 }
             }
         }

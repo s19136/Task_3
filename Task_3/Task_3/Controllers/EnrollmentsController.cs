@@ -41,11 +41,11 @@ namespace Task_3.Controllers
             }
             else
             {
+                var role = _service.GetRole(loginRequest.Login);
                 var claims = new[]
                 {
                 new Claim(ClaimTypes.Name, loginRequest.Login),
-                new Claim(ClaimTypes.Role, "admin"),
-                new Claim(ClaimTypes.Role, "employee")
+                new Claim(ClaimTypes.Role, role)
                 };
 
                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecretKey"]));
@@ -88,11 +88,11 @@ namespace Task_3.Controllers
             }
             else
             {
+                var role = _service.GetRole(result.login);
                 var claims = new[]
                 {
                 new Claim(ClaimTypes.Name, result.login),
-                new Claim(ClaimTypes.Role, "admin"),
-                new Claim(ClaimTypes.Role, "employee")
+                new Claim(ClaimTypes.Role, role)
                 };
 
                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SecretKey"]));

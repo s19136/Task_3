@@ -26,13 +26,15 @@ POST
 	"PassW": "superpass"
 }
 
-/api/enrollments/refresh-token
+/api/enrollments/enroll
 POST
-?requestToken=6e3d65fe-1068-41dc-a14a-782d87551a0b
 
-
-/api/enrollments/refresh-token
-POST
-?requestToken=902ac82a-a02d-4796-83bf-fb01129e9bff
-
+{
+	"IndexNumber": "s1235",
+	"PassW": "superpass",
+	"FirstName": "Moe",
+	"LastName": "Doe",
+	"BirthDate": "03-03-1993",
+	"Studies": "Computer Science"
+}
 

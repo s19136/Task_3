@@ -14,9 +14,9 @@ namespace Task_3.Services
         StudentServiceResponse EnrollStudent(EnrollStudentRequest req);
         StudentServiceResponse Promote(PromoteStudentRequest req);
         Boolean IndexExists(string index);
-
         Boolean DBLoginSuccessful(LoginRequest loginRequest);
         Boolean RefreshTokenInserted(string login, Guid token);
         RefreshTokenResponse ExtractRefreshToken(string token);
+        string GetRole(string index);
     }
 }
